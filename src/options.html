@@ -5,8 +5,15 @@
 </head>
 <body>
   <h1>Settings</h1>
-  <label for="apiKey">OpenAI API Key:</label>
+  <label for="apiKey">API Key:</label>
   <input type="text" id="apiKey" />
+  
+  <label for="systemPrompt">System Prompt:</label>
+  <textarea id="systemPrompt" rows="4"></textarea>
+  
+  <label for="userPrompt">User Prompt:</label>
+  <textarea id="userPrompt" rows="4"></textarea>
+  
   <button id="save">Save</button>
   <p id="status"></p>
   <script src="options.js"></script>
